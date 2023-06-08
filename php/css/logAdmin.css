@@ -1,0 +1,92 @@
+h1 {
+    color: rgb(4, 35, 53)2, 150);
+   
+    text-align:center;
+}
+div {
+    background: #2e7c32;
+    color: #e7e9f5;
+    text-align: center;
+    margin-left: 39%;
+    width: 22%;
+    border-radius: 20px;
+    
+}
+a {
+    color: #e7e9f5;
+}
+body {
+    background-image: url('../img/background.jpg');
+    background-size:cover ;
+    align-items: center;
+    justify-content: center;
+  
+    font-family: sans-serif;
+    text-align: center;
+
+}
+input {
+    width: 10%;
+    position: relative;
+    margin-top: 50px;
+    width: 20%;
+    height:auto;
+    background:#000000;
+    border-radius: 5px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+
+    .button {
+       
+        padding: 1px 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+        width:13% ;
+        font-size: 100%;
+        color:#160161;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        background: #585964;
+        border: 2px solid #e7e9f5;
+        border-radius: 20px;
+        transition: 1s;
+        margin:1%;
+        left: 50%;
+        border-radius: 20px;
+        box-shadow: 0 9px black;
+        display: inline;
+        outline: none;
+      
+      }
+    
+      .button:hover {background-color: #8e3e3e}
+    
+    .button:active {
+      background-color: #6073b3;
+      box-shadow: 0 5px #666;
+      transform: translateY(2px);}
+   
+      
+     
+      
+      .button2 {
+        background-color: rgb(9, 134, 25); 
+        color: black; 
+        border: 2px solid rgb(10, 102, 10);
+      }
+      
+      .button2:hover {
+        background-color: rgb(7, 136, 18);
+        color: white;
+      }
+    

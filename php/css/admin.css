@@ -1,0 +1,85 @@
+body
+{
+    text-align: center;
+    background-image: url('../img/third.jpg') ;
+    background-repeat: no-repeat;
+    }
+
+    .eff
+    {
+        background-color: #0e6934;
+    }
+table
+{
+    width: 90%;
+}
+
+label
+{
+    min-width: 150px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+ul,li
+{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a{
+    margin-left: 3vw;
+}
+
+.sub
+{
+    background-color: blue;
+    color: #fff;
+}
+
+button
+{
+    border: 0;
+    border-radius: 20px;
+}
+
+input
+{
+    width: 40%;
+    height: 2vw;
+}
+
+button
+{
+    width: 20%;
+    height: 2vw;
+    font-size: large;
+    border-radius: 20px;
+    
+}
+
+fieldset
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4vw;
+    background-color: #00464f;
+}
+
+form
+{
+    padding: 3vw;
+    background-color: #00464f;
+}
+
+legend
+{
+    background-color: rgb(255, 255, 255);
+}
+
+h1,h3
+{
+    color: #fff;
+}

@@ -1,0 +1,75 @@
+body
+{
+    text-align: center;
+    background-color: #121416;
+}
+
+table
+{
+    width: 90%;
+}
+
+label
+{
+    min-width: 120px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul,li
+{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a{
+    margin-left: 3vw;
+}
+
+.sub
+{
+    background-color: blue;
+    color: #fff;
+}
+
+button
+{
+    border: 0;
+}
+
+input
+{
+    width: 40%;
+    height: 2vw;
+}
+
+button
+{
+    width: 30%;
+    height: 3vw;
+}
+
+fieldset
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4vw;
+    background-color: rgb(13, 185, 13);
+}
+
+form
+{
+    padding: 3vw;
+    background-color: #00464f;
+}
+
+legend
+{
+    background-color: rgb(13, 185, 13);
+}
+
+h1,h3
+{
+    color: #fff;
+}

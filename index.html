@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>gestion de soutenance</title>
+      <link rel="stylesheet" href="php/css/components.css">
+      <link rel="stylesheet" href="php/css/icons.css">
+      <link rel="stylesheet" href="php/css/responsee.css">
+      <link rel="stylesheet" href="php/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="php/owl-carousel/owl.theme.css"> 
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="php/css/template-style.css"> 
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->  
+      <header>
+         <nav>
+            <div class="line">
+               <!-- Mobile version of logo -->
+               <div class="logo logo-small">
+                 <a href="index.html">GESTION <br /><strong> de soutenance</strong></a>
+               </div>  
+               
+               <div class="top-nav">              
+
+                     <ul class="s-12 l-5 top-ul chevron">
+                        <div class="right">
+                            
+                           <li>  <a href="index.html">Home</a>
+                           </li>
+                           <li><a href="etudiant.php">Etudiant</a>
+                           </li>
+                           <li><a href="Professeur.php">Professeur</a>
+                           </li>
+                          
+                        </div>
+                     </ul>
+
+                     <ul class="s-12 l-2">
+                        <li class="logo hide-s hide-m">
+                           <a href="#">GESTION<br /><strong> soutenance</strong></a>
+                        </li>
+                     </ul>
+
+                     <ul class="s-12 l-5 right top-ul chevron">
+                        <li><a href="organisme.php">Organisme </a>
+                        </li>
+                      
+                        <li><a href="soutenir.php">Soutenir</a>
+
+                           <li><a href="loginAdmin.php">Admin</a></li>
+                        </li>
+                     </ul> 
+
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section>
+         <!-- CAROUSEL -->  	
+         <div id="carousel">
+            <div id="header-carousel" class="owl-carousel owl-theme">
+               <div class="item">
+                  <img src="img/photos (3).jpg" alt="">      
+                  <div class="carousel-text">
+                     <div class="line">
+                        <div class="s-12 l-9">
+                           <h2> pepiniere</h2>
+                        </div>
+                        <div class="s-12 l-9">
+                           <p>des elites informatiques</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="img/photos (4).jpg" alt="">      
+                  <div class="carousel-text">
+                     <div class="line">
+                        <div class="s-12 l-9">
+                           <h2>pepiniere </h2>
+                        </div>
+                        <div class="s-12 l-9">
+                           <p>des elites informatiques </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="img/photos (1).jpg" alt="">      
+                  <div class="carousel-text">
+                     <div class="line">
+                        <div class="s-12 l-9">
+                           <h2>pepiniere</h2>
+                        </div>
+                        <div class="s-12 l-9">
+                           <p>des elites informatiques
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        
+         <!-- GALLERY --> 	
+         <div id="third-block">
+            <div class="line">
+               <h2>Responsive gallery</h2>
+               <p class="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+               </p>
+               <div class="margin">
+                  <div class="s-12 m-6 l-3">
+                     <img src="img/photos (2).jpg" alt="alternative text">      
+                     <p class="subtitile">
+                     </p>
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                     <img src="img/photos (1).jpg" alt="alternative text">      
+                     <p class="subtitile"> learn Backend
+                     </p>
+                  </div>
+                  <div class="s-12 m-6 l-3">
+                     <img src="img/photos (3).jpg" alt="alternative text">      
+                     <p class="subtitile">learn fullstack
+                     </p>
+                  </div>
+                 
+                  <div class="s-12 m-6 l-3">
+                     <img src="img/photos (2).jpg" alt="alternative text">      
+                     <p class="subtitile">
+                  </div>
+               </div>
+            </div>
+         </div>
+       
+      </section>
+      <!-- FOOTER -->   
+      <footer>
+         <div class="line">
+            <div class="s-12 l-6">
+               <p>Copyright 2022,Association-ENI 
+               </p>
+            </div>
+            <div class="s-12 l-6">
+               <p class="right">
+                  <a class="right" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding by Response-Team</a>
+               </p>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript" src="js/responsee.js"></script> 
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>   
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {  
+            var owl = $('#header-carousel');
+            owl.owlCarousel({
+              nav: true,
+              dots: false,
+              items: 1,
+              loop: true,
+              navText: ["&#xf007","&#xf006"],
+              autoplay: true,
+              autoplayTimeout: 4000
+           });
+           var owl = $('#news-carousel');
+           owl.owlCarousel({
+              nav: true,
+              dots: false,
+              items: 1,
+              loop: true,
+              navText: ["&#xf007","&#xf006"],
+              autoplay: true,
+              autoplayTimeout: 4000
+           });
+         });	
+          
+      </script> 
+   </body>
+</html>
